@@ -1,0 +1,220 @@
+SFX_WIN
+Version=28
+GroupVersion=-1.000000
+Advanced=0
+HelpID=0
+ParentMaterial=0
+NumberOfNodes=6
+#NT=10100 1 Hw Material Base-Hw Shader Nodes-Core
+	PC=35
+	name=1 v=5000 _Material
+	version=1 v=2003 1.842000
+	posx=1 v=2003 281.666656
+	posy=1 v=2003 -28.333336
+	classname=1 v=5000 Hw Material Base
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 10
+	isadvanced=1 v=2001 1
+	advanceddelete=1 v=2001 1
+	helpid=1 v=2002 73
+	grpnodecolor=1 v=5012 4
+	grpPosX=1 v=2003 -1129.380005
+	grpPosY=1 v=2003 -143.923004
+	disableconsolidation_HwShader=2 e=1 v=2001 0
+	value_ClampDynamicLights=2 e=1 v=2002 99
+	value_MaxNumberLights=2 e=1 v=2002 3
+	value_Gamma=2 e=2 v=2001 0
+	value_Wireframe=2 e=3 v=2001 0
+	value_DepthTest=2 e=4 v=2001 1
+	value_DepthWrite=2 e=4 v=2001 1
+	value_CastShadow=2 e=5 v=2001 1
+	value_SurfaceMaskCutoff=2 e=6 v=2003 0.000000
+	value_SSAO=2 e=7 v=2001 1
+	options_Tessellation=2 e=900 v=5012 0
+	value_FlatTessellationBlend=2 e=901 v=2003 0.000000
+	value_BoundingBoxMultiplier=2 e=902 v=2003 1.000000
+	value_ClippingBiasAdd=2 e=902 v=2003 5.000000
+	options_Displacement=2 e=1000 v=5012 1
+	options_VDM_CoordSys=2 e=1001 v=5012 1
+	value_DisplacementMultiplier=2 e=1002 v=2003 1.000000
+	value_DisplacementOffset=2 e=1003 v=2003 0.000000
+	cgfxprofile_HwShader=2 e=1999 v=5012 0
+	config_HwShader=2 e=2000 v=5012 1
+	shadername_HwShader=2 e=2001 v=5000 
+	saveshadertodisk_HwShader=2 e=2002 v=5015 
+	group=-1
+	ISC=9
+		SVT=2002 2002 0 0 0 _NumberOfLights
+		SVT=5001 3002 0 0 0 _ObjectVertexPosition
+		SVT=5001 2003 0 0 0 
+		SVT=5001 3002 0 0 0 _Displacement
+		SVT=5001 5018 0 0 0 _SurfaceShader
+		SVT=5001 2003 0 0 0 _SurfaceMask
+		SVT=5001 2003 0 0 0 _SurfaceMaskCutoff
+		SVT=2001 2001 0 0 0 _Gamma
+		SVT=1001 1002 0 0 0 
+	OSC=0
+#NT=10100 1 Traditional Game Surface Shader-Hw Shader Nodes-Surface Shaders
+	PC=26
+	name=1 v=5000 TraditionalGameSurfaceShader
+	version=1 v=2003 1.481000
+	posx=1 v=2003 89.999969
+	posy=1 v=2003 -26.666668
+	previewswatch=1 v=2002 2
+	classname=1 v=5000 Traditional Game Surface Shader
+	submenuname=1 v=5000 Surface Shaders
+	bitmapnodeindex=1 v=2002 10
+	isadvanced=1 v=2001 1
+	advanceddelete=1 v=2001 1
+	helpid=1 v=2002 74
+	grpnodecolor=1 v=5012 4
+	grpPosX=1 v=2003 -990.607971
+	grpPosY=1 v=2003 169.649994
+	options_Diffuse=2 e=1 v=5012 0
+	options_Specular=2 e=1 v=5012 0
+	value_FlipBackFaces=2 e=1 v=2001 1
+	value_TranslucencyDistortion=2 e=1100 v=2003 0.200000
+	value_TranslucencyPower=2 e=1101 v=2003 3.000000
+	value_TranslucencyMinimum=2 e=1102 v=2003 0.000000
+	color_TranslucencyOuter=2 e=1104 v=3003 1.000000,0.640000,0.250000,1.000000
+	color_TranslucencyMedium=2 e=1105 v=3003 1.000000,0.210000,0.140000,1.000000
+	color_TranslucencyInner=2 e=1106 v=3003 0.250000,0.050000,0.020000,1.000000
+	value_UseStreamLightData=2 e=1500 v=2001 0
+	value_BakedLightColorSet=2 e=1502 v=5000 BakedLightColorSet
+	value_BakedLightColorSetUnshared=2 e=1503 v=2001 1
+	group=-1
+	ISC=17
+		SVT=5001 2003 0 0 0 _Opacity
+		SVT=5001 3002 0 0 0 _Emissive
+		SVT=5001 2003 0 0 0 _AmbientOcclusion
+		SVT=5001 3002 0 0 0 _DiffuseColor
+		SVT=5001 2003 0 0 0 _SpecularPower
+		SVT=5001 3002 0 0 0 _SpecularColor
+		SVT=5001 3002 0 0 0 _Reflection
+		SVT=5001 2003 0 0 0 _ReflectionIntensity
+		SVT=5001 3002 0 0 0 _Normal
+		SVT=5001 3002 0 0 0 _ObjectThickness
+		SVT=5001 2003 0 0 0 _BlendedNormal
+		SVT=5001 2003 0 0 0 _BlendedNormalMask
+		SVT=5001 3002 0 0 0 _AnisotropicDirection
+		SVT=5001 3001 0 0 0 _AnisotropicSpread
+		SVT=5001 3002 0 0 0 _IBL
+		SVT=5001 2003 0 0 0 _Weight
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 5018 0 _SurfaceShader
+		CC=1
+			C=1 0 0 0 4 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.660000
+	posx=1 v=2003 -1271.990845
+	posy=1 v=2003 -87.621681
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.760986
+	grpPosY=1 v=2003 -80.223900
+	group=-1
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=2 0 0 4 0 0 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Texture Map-Hw Shader Nodes-Textures
+	PC=25
+	name=1 v=5000 _TextureMap
+	version=1 v=2003 1.910000
+	posx=1 v=2003 -725.603210
+	posy=1 v=2003 -79.607567
+	previewswatch=1 v=2002 1
+	classname=1 v=5000 Texture Map
+	submenuname=1 v=5000 Textures
+	bitmapnodeindex=1 v=2002 64
+	helpid=1 v=2002 19
+	grpnodecolor=1 v=5012 6
+	grpPosX=1 v=2003 -1103.290039
+	grpPosY=1 v=2003 -17.517900
+	defineinheader_MyTexture=2 e=1 v=2001 0
+	texturepath_MyTexture=2 e=1 v=5000 C:/Users/takafumi.nishikawa/Downloads/163_free_matcaps_by_sespider-d4a4zq9/GeneticView_LightGreen-Jade1b.png
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	autoPreviewTexture_MyTexture=2 e=4 v=2001 1
+	value_ConvertToLinearSpace=2 e=4 v=2001 0
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	texturenodename_MyTexture=2 e=5 v=5000 
+	addressu_Sampler=2 e=7 v=5012 0
+	addressv_Sampler=2 e=8 v=5012 0
+	addressw_Sampler=2 e=9 v=5012 0
+	uigroup_MyTexture=2 e=13 v=5000 
+	uiorder_MyTexture=2 e=13 v=2002 0
+	group=-1
+	ISC=4
+		SVT=5001 3001 0 0 0 _UV
+		SVT=5001 2003 0 0 0 
+		SVT=2001 2001 0 0 0 _ConvertToLinearSpace
+		SVT=1001 1002 0 0 0 
+	OSC=7
+		SVT=5001 3003 0 _RGBA
+		CC=0
+		SVT=5001 3002 0 _Color
+		CC=1
+			C=3 1 0 5 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _Red
+		CC=0
+		SVT=5001 2003 0 _Green
+		CC=0
+		SVT=5001 2003 0 _Blue
+		CC=0
+		SVT=5001 2003 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 MatCapUVs-Hw Shader Nodes-Textures
+	PC=11
+	name=1 v=5000 MatCapUVs
+	version=1 v=2003 1.040000
+	posx=1 v=2003 -1055.279175
+	posy=1 v=2003 -77.788612
+	classname=1 v=5000 MatCapUVs
+	submenuname=1 v=5000 Textures
+	helpid=1 v=2002 76
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -985.541016
+	grpPosY=1 v=2003 -160.110992
+	value_CenterHighlights=2 e=1 v=2001 0
+	group=-1
+	ISC=2
+		SVT=5001 3002 0 0 0 _Normal
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=4 0 0 3 0 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20023 0
+	PC=2
+	posx=1 v=2003 -337.222229
+	posy=1 v=2003 9.861112
+	group=-1
+	ISC=1
+		SVT=5001 3002 1 0 0 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=5 0 2 1 1 0 0
+			CPC=0
