@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
 from maya import OpenMayaUI, cmds
-from PySide import QtCore, QtWidgets
+from PySide2 import QtCore, QtWidgets
 #import shiboken
-#maya2017対応
-try:
-    from shiboken import wrapInstance
-except ImportError:
-    from shiboken2 import wrapInstance
+from shiboken2 import wrapInstance
 
 
 class ToolWidget(QtWidgets.QWidget):
